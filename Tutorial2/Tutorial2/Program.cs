@@ -30,4 +30,9 @@ class Test
         }
         return sum / values.Length;
     }
+
+    public static int CalculateMax(int[] values)
+    {
+
+    }
 }
