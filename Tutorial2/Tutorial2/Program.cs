@@ -9,6 +9,8 @@ float testowa = Test.CalculateAverage(lista);
 Console.WriteLine(testowa);
 int liczbamax = Test.CalculateMax(lista);
 Console.WriteLine(liczbamax);
+int liczbamin =  Test.CalculateMin(lista);
+Console.WriteLine(liczbamin);
 
 class Test
 {
