@@ -3,7 +3,9 @@ Test jeden = new Test("Dawid");
 
 jeden.napisz();
 
-int[] lista = new []{1,2,3,4,5,6};
+Test dwa = new Test("");
+
+int[] lista = new []{11,23,55,123,1,9};
 
 float testowa = Test.CalculateAverage(lista);
 Console.WriteLine(testowa);
@@ -16,7 +18,7 @@ class Test
 
     public Test(string name)
     {
-        if (name != null)
+        if (name != "")
         {
             this.name = name;
         }
