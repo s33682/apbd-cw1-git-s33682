@@ -7,6 +7,8 @@ int[] lista = new []{1,2,3,4,5,6};
 
 float testowa = Test.CalculateAverage(lista);
 Console.WriteLine(testowa);
+int liczbamax = Test.CalculateMax(lista);
+Console.WriteLine(liczbamax);
 
 class Test
 {
@@ -36,5 +38,18 @@ class Test
             sum += values[i];
         }
         return sum / values.Length;
+    }
+
+    public static int CalculateMax(int[] values)
+    {
+        int max = values[0];
+        foreach (int liczba in values)
+        {
+            if (liczba > max)
+            {
+                max = liczba;
+            }
+        }
+        return max;
     }
 }
