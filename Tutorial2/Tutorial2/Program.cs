@@ -7,6 +7,8 @@ int[] lista = new []{1,2,3,4,5,6};
 
 float testowa = Test.CalculateAverage(lista);
 Console.WriteLine(testowa);
+int liczbamax = Test.CalculateMax(lista);
+Console.WriteLine(liczbamax);
 
 class Test
 {
