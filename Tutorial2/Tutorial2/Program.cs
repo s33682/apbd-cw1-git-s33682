@@ -57,6 +57,14 @@ class Test
 
     public static int CalculateMin(int[] values)
     {
-
+        int min = values[0];
+        foreach (int liczba in values)
+        {
+            if (liczba <= min)
+            {
+                min = liczba;
+            }
+        }
+        return min;
     }
 }
