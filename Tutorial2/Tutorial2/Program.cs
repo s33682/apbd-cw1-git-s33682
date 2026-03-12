@@ -14,12 +14,19 @@ class Test
 
     public Test(string name)
     {
-        this.name = name;
+        if (name != null)
+        {
+            this.name = name;
+        }
+        else
+        {
+            this.name = "Domyslne";
+        }
     }
 
     public void napisz()
     {
-        Console.WriteLine("Nazwa: " + name);
+        Console.WriteLine("Nazywam sie: " + name);
     }
     public static float CalculateAverage(int[] values)
     {
