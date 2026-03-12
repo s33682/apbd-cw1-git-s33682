@@ -4,7 +4,7 @@ Console.WriteLine("Hello, World!");
 
 Test jeden = new Test("Dawid");
 
-
+jeden.napisz();
 
 class Test
 {
@@ -15,5 +15,8 @@ class Test
         this.name = name;
     }
 
-
+    public void napisz()
+    {
+        Console.WriteLine("Nazwa: " + name);
+    }
 }
