@@ -33,6 +33,14 @@ class Test
 
     public static int CalculateMax(int[] values)
     {
-
+        int max = values[0];
+        foreach (int liczba in values)
+        {
+            if (liczba > max)
+            {
+                max = liczba;
+            }
+        }
+        return max;
     }
 }
