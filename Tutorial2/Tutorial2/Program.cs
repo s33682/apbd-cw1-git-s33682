@@ -16,4 +16,8 @@ class Test
     {
         Console.WriteLine("Nazwa: " + name);
     }
+    public float CalculateAverage(int[] values)
+    {
+
+    }
 }

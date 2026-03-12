@@ -1,0 +1,30 @@
+[33mcommit 0565f80a39d6001aaf6a567d8998df15be5ddb5a[m
+Author: Dawid Ochnio <s33682@pjwstk.edu.pl>
+Date:   Thu Mar 12 12:47:46 2026 +0100
+
+    Added function napisz()
+
+[1mdiff --git a/Tutorial2/Tutorial2/Program.cs b/Tutorial2/Tutorial2/Program.cs[m
+[1mindex 6164a82..2a16acb 100644[m
+[1m--- a/Tutorial2/Tutorial2/Program.cs[m
+[1m+++ b/Tutorial2/Tutorial2/Program.cs[m
+[36m@@ -4,7 +4,7 @@[m [mConsole.WriteLine("Hello, World!");[m
+ [m
+ Test jeden = new Test("Dawid");[m
+ [m
+[31m-[m
+[32m+[m[32mjeden.napisz();[m
+ [m
+ class Test[m
+ {[m
+[36m@@ -15,5 +15,8 @@[m [mclass Test[m
+         this.name = name;[m
+     }[m
+ [m
+[31m-[m
+[32m+[m[32m    public void napisz()[m
+[32m+[m[32m    {[m
+[32m+[m[32m        Console.WriteLine("Nazwa: " + name);[m
+[32m+[m[32m    }[m
+ }[m
+\ No newline at end of file[m
