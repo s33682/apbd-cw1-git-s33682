@@ -3,6 +3,11 @@ Test jeden = new Test("Dawid");
 
 jeden.napisz();
 
+int[] lista = new []{1,2,3,4,5,6};
+
+float testowa = Test.CalculateAverage(lista);
+Console.WriteLine(testowa);
+
 class Test
 {
     private string name;
@@ -16,7 +21,7 @@ class Test
     {
         Console.WriteLine("Nazwa: " + name);
     }
-    public float CalculateAverage(int[] values)
+    public static float CalculateAverage(int[] values)
     {
         int sum = 0;
         for (int i = 0; i < values.Length; i++)
