@@ -26,7 +26,7 @@ class Test
         }
         else
         {
-            this.name = "Domyslne1";
+            this.name = "Domyslne2";
         }
     }
 
